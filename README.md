@@ -5,19 +5,19 @@ This version is the 1988 release that had been ported from QNX to MS-DOS and com
 
 Here is part of the README file in Portuguese distributed with the program:
 
-##Como Executar o ASMZ80
+## Como Executar o ASMZ80
 
-=ASMZ80
-=ASMZ80 FONTE
-=ASMZ80 FONTE;
-=ASMZ80 FONTE,
-=ASMZ80 FONTE,,
-=ASMZ80 FONTE,SAIDA
-=ASMZ80 FONTE,SAIDA,
-=ASMZ80 FONTE,SAIDA;
-=ASMZ80 FONTE,SAIDA,LISTAGEM
+> ASMZ80
+> ASMZ80 FONTE
+> ASMZ80 FONTE;
+> ASMZ80 FONTE,
+> ASMZ80 FONTE,,
+> ASMZ80 FONTE,SAIDA
+> ASMZ80 FONTE,SAIDA,
+> ASMZ80 FONTE,SAIDA;
+> ASMZ80 FONTE,SAIDA,LISTAGEM
 
-##Como usar as opções
+## Como usar as opções
 
 /Oexpressão - OFFSET
 
