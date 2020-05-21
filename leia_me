@@ -1,0 +1,167 @@
+     ²²²²²²                                        ²      ²
+    ²²²±±²²²                                       ²      ²±
+   ²²²±   ²²²      ²²²²²   ²²²²²   ²²²²   ²²² ²²²  ² ²²²  ²±  ²²²²   ² ²²²
+  ²²²±     ²²²    ²±±±±±± ²±±±±±± ²±±±±²  ²±±²±±²± ²²±±±² ²± ²±±±±²  ²²±±±²±
+ ²²²²²²²²²²²²²²   ±²²²²   ±²²²²   ²²²²²²± ²± ±± ²± ²±   ² ²± ²²²²²²± ²±±  ±±
+²²²²±±±±±±°²²²²²   ±±±±²±  ±±±±²± ²±±±±±± ²±    ²± ²²   ² ²± ²±±±±±± ²±
+²²²²±      ²²²²²± ²²²²²±± ²²²²²±± ±²²²²±  ²±    ²± ²±²²²± ²± ±²²²²±  ²±
+±±±±±      ±±±±±± ±±±±±±  ±±±±±±   ±±±±±  ±±    ±± ± ±±±± ±±  ±±±±±  ±±
+
+                        ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+                        º M O N T A D O R     Z 8 0 º
+                        ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+(C) Copyright Inova Tecnologia e Inform tica 1988
+
+
+    Montador para mimcroprocessadores compat¡veis com Z80. Este programa
+cria um arquivo execut vel a partir de um programa na forma simb¢lica
+( assembly language ). Este arquivo execut vel pode ser opcionalmente gravado
+em EPROM para uso em controladores e outros sistemas independentes.
+
+
+
+                          Arquivos Neste Disco
+                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+    Os arquivos gravados neste disquete sƒo os seguintes:
+
+    - ASMZ80.EXE  - O montador. Aceita arquivos texto contendo programas na
+                    forma simb¢lica e gera um arquivo bin rio em linguagem
+                    de m quina e, opcionalmente, uma listagem da montagem.
+
+    - LEIA_ME     - Este arquivo. Complementa as informa‡“es fornecidas pelo
+                    manual que acompanha o programa.
+
+    - INFORMA.EXE - Utilit rio que pode ser usado para ler este arquivo, criar
+                    uma c¢pia de trabalho do disquete, instalar estes arquivos
+                    em um diret¢rio de um winchester e atualizar o programa
+                    ASMZ80 para uma versƒo mais recente ( como descrito mais
+                    adiante neste mesmo arquivo ).
+
+
+
+
+
+
+                          C¢pia de Trabalho
+                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+    Embora seja poss¡vel operar este programa diretamente do disquete original,
+desaconselhamos esta pr tica pois com o uso constante a m¡dia magn‚tica fica
+menos confi vel. E' recomend vel criar uma c¢pia do programa em outro disquete
+ou em disco r¡gido ( winchester ) e operar com esta "c¢pia de trabalho".
+    Os comandos do DOS podem ser usados para criar esta copia de trabalho ou,
+para sua maior conveniencia, o programa instala fornecido neste disquete pode
+criar esta copia. O programa fornece instru‡“es na pr¢pria tela descrevendo o
+seu uso. Para se fazer uma c¢pia de seguran‡a em outro disquete, ‚ necess rio
+que este j  estaja devidamente formatado pelo DOS.
+
+
+
+
+
+
+
+
+
+
+
+                          Como Executar o ASMZ80
+                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+ASMZ80
+ASMZ80 FONTE
+ASMZ80 FONTE;
+ASMZ80 FONTE,
+ASMZ80 FONTE,,
+ASMZ80 FONTE,SAIDA
+ASMZ80 FONTE,SAIDA,
+ASMZ80 FONTE,SAIDA;
+ASMZ80 FONTE,SAIDA,LISTAGEM
+
+ASMZ80 ÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄ´
+        ÀÄfonteÄÅÄ.ÄÄÄextÄÅÄ,ÄÂÄsaidaÄÅÄ.ÄÄÄextÄÅÄ,ÄÂÄlistagemÄÅÄ.ÄÄÄextÄ´
+                ÀÄÄÄÄÄÄÄÄÄÁÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÅÄÄÄÁÄÄÄÄÄÄÄÄÄÄÙ         ³
+                                                ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ;ÄÄÄÄÄÄÙ
+
+
+
+
+
+
+                          Como Usar as Op‡“es
+                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+/O<expressƒo> - OFFSET
+
+
+
+
+
+
+
+
+
+
+/R<expressƒo> - RELOCATE
+
+
+
+
+
+
+
+
+                          Suporte T‚cnico
+                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+    Quaisquer d£vidas sobre a opera‡ƒo deste programa ou informa‡“es
+adicionais sobre o mesmo podem ser obtidas com:
+                ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                ³ Departamento de Suporte T‚cnico     ³
+                ³ Inova Tecnologia e Informatica Ltda.³
+                ³ Rua Aur‚lia 628, Lapa               ³
+                ³ 05046 - Sƒo Paulo - SP              ³
+                ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+    Uma op‡ƒo mais conveniente para quem possuir um modem e programa de
+comunica‡ƒo ‚ usar o Sistema de Correio Eletr“nica SAMPA. Ligue para
+o telefone 37-4107 com seu modem e ap¢s a conexƒo pressione qualquer
+tecla. Ao receber a mensagem "ID ou ?:" digite "777/inova" ( estas letras
+nƒo aparecem na tela ) e pressione <ENTER> ou <RETURN>. O sistema ‚
+operado por comando semelhantes ao MS DOS. Para uma explica‡ƒo sobre os
+comandos e sobre o sistema em geral digite "ajuda<ENTER>".
+
+
+
+
+
+                          Atualiza‡ƒo do ASMZ80
+                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+    Uma das op‡“es do programa INFORMA ‚ criar uma versƒo atualizada do
+programa ASMZ80 ( ou de outros produtos da Inova ). Para poder utilizar
+esta op‡ƒo, voce deve dispor do arquivo ASMZ80.DIF distribu¡do pelo
+suporte t‚cnico da Inova por ocasiƒo da cria‡ƒo de uma nova versƒo do
+programa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
